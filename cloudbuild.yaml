@@ -1,0 +1,7 @@
+steps:
+- name: 'ubuntu'
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    ./pants compile src/jvm/io/fsq/rogue:rogue
